@@ -39,7 +39,7 @@ spring中的数据源2
   <property name="targetDataSource" ref="testDataSource" />
 </bean>
 
-<bean id="logJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+<bean id="testJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
   <constructor-arg ref="testDataSourceProxy" />
 </bean>
 
