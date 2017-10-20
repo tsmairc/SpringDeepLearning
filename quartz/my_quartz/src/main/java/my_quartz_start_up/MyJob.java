@@ -5,10 +5,10 @@ import org.quartz.JobExecutionException;
 
 public class MyJob implements org.quartz.Job {
 
-      public MyJob() {
-      }
+	public MyJob() {
+	}
 
-      public void execute(JobExecutionContext context) throws JobExecutionException {
-          System.err.println("Hello World!  MyJob is executing.");
-      }
-  }
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+		System.err.println("Hello World!  MyJob is executing.");
+	}
+}
