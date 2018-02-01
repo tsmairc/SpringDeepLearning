@@ -24,6 +24,11 @@ MappingJackson2HttpMessageConverter
 
 ### 这里我们可以自定义转换器以适应我们特殊的需求
 1.原始springmvc rest接口的使用。
-
+```java
+@Controller
+public class TestController{
+	@RequestMapping("/abc")
+}
+```
 
 ### spring常用注解
